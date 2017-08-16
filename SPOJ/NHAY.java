@@ -1,13 +1,18 @@
 package SPOJ;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
+/*-
+ * @author Mazen Magdy
+ * @see    http://www.spoj.com/problems/NAJPF/
+ *				-We use KMP to calculate the Fail Function for each index. Now for each index
+ *				 We simply check whether the value is equal to the length of the pattern or no.
+ */
 public class NHAY {
 
 	static int[] fail(char[] c) {

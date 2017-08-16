@@ -7,6 +7,11 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
+/*-
+ * @author Mazen Magdy
+ *				-We need to report minimum in a range so we use a SegmentTree. Since there are no updates
+ *				 we can also use a SparseTable.
+ */
 public class RPLN {
 
 	static int[] a;

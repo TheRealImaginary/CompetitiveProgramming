@@ -10,6 +10,12 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
+/*-
+ * @author Mazen Magdy
+ * @see	   http://www.spoj.com/problems/NHAY/
+ *				-We use KMP to calculate the Fail Function for each index. Now for each index
+ *				 We simply check whether the value is equal to the length of the pattern or no.
+ */
 public class NAJPF {
 
 	static int[] KMP(char[] c) {

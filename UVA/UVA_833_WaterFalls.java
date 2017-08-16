@@ -12,7 +12,8 @@ import java.util.StringTokenizer;
 
 /*-
  * @author Mazen Magdy
- *
+ *				-For each source We find the closest LineSegment below it where the source is between
+ *				 both endpoints of the LineSegment and move the source point.
  */
 public class UVA_833_WaterFalls {
 

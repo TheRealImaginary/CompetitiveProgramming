@@ -9,6 +9,12 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
+/*-
+ * @author Mazen Magdy
+ *				-We use Sliding-Window Technique and keep increasing window size
+ *				 as-long as sum will be lower than the threshold, and decrease window size
+ *				 when sum is greater or when we slide the window. 
+ */
 public class ALIEN {
 
 	public static void main(String[] args) throws IOException {

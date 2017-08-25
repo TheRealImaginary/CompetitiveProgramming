@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  * @author Mazen Magdy
  * @see http://codeforces.com/gym/101055/problem/B
  */
-public class GSS1 {
+public class GSS1 { // TLE
 
 	static int[] a;
 

@@ -10,11 +10,11 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
-/**
- * @author Mazen Magdy
- * We want to count the number of pairs of words that appear out of order,
- * and so this problem just needs us to report the Inversion Index, There are many ways
- * of doing so (Segment Tree, Fenwick Tree, Merge Sort), I chose Merge Sort.
+/*-
+ * @author Mazen Magdy We want to count the number of pairs of words that appear
+ *         out of order, and so this problem just needs us to report the
+ *         Inversion Index, There are many ways of doing so (Segment Tree,
+ *         Fenwick Tree, Merge Sort), I chose Merge Sort.
  */
 public class YODANESS {
 

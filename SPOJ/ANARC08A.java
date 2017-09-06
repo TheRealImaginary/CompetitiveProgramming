@@ -18,6 +18,7 @@ import java.util.StringTokenizer;
  * @author Mazen Magdy
  *				-We BFS from both ends looking for a common node, Unless they already can reach each
  *				 other in less than half the limit.
+ * @see https://github.com/mostafa-saad/MyCompetitiveProgramming/blob/master/SPOJ/SPOJ_ANARC08A.txt - For other interesting solutions
  */
 public class ANARC08A {
 

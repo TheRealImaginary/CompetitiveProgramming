@@ -16,7 +16,7 @@ import java.util.StringTokenizer;
  * 		-T(G) is a Graph where each node is connected to any other node it can reach in the original graph.
  * 		-The Answer is the size of the largest Set of vertices such that between any pair of vertices, there
  * 		 exists an edge either from u to v or v to u.
- * 		-If we find all SCC in the Original Graph and Created a DAG, let node u and v be nodes in the DAG,
+ * 		-If we find all SCC in the Original Graph and Create a DAG, let node u and v be nodes in the DAG,
  * 		 If u can reach v then this means u can reach all vertices in v's component, so the answer is the maximum
  * 		 number of nodes we can pass through from any node.
  */

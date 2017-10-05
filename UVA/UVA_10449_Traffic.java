@@ -153,7 +153,7 @@ public class UVA_10449_Traffic { // RTE
 		public boolean ready() throws IOException {
 			return br.ready();
 		}
-
+		
 		public boolean nextEmpty() throws IOException {
 			String s = nextLine();
 			st = new StringTokenizer(s);

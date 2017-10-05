@@ -44,6 +44,7 @@ public class COCONUTS {
 			q.add(s);
 			p = new int[V];
 			Arrays.fill(p, -1);
+			p[s] = s;
 			while (!q.isEmpty()) {
 				int u = q.poll();
 				for (int v : g[u])

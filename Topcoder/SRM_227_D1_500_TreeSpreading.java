@@ -5,7 +5,7 @@ import java.util.Arrays;
 /*-
  * @author Mazen Magdy
  * 
- * 			Note: We can the index and our base case would be a = b = c = d = 0
+ * 			Note: We can remove the index and our base case would be a = b = c = d = 0
  */
 public class SRM_227_D1_500_TreeSpreading {
 

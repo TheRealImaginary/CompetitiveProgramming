@@ -10,6 +10,8 @@ import java.util.Arrays;
  * 				 we can recover currentAmount from `week` and `extra`. Then f(week, extra) = 
  * 				 p * f(week - 1, extra) + (1 - p) * f(week - 1, extra + 1), with the base case
  * 				 f(0, extra) = currentAmount.
+ *
+ * 				 Statement: https://community.topcoder.com/stat?c=problem_statement&pm=10988&rd=14282
  */
 
 // 2010 TCO Algorithm Online Round 4 - Division I, Level One

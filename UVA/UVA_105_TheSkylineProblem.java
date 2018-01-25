@@ -3,6 +3,10 @@ package UVA;
 import java.io.*;
 import java.util.*;
 
+/**
+ * For Every x-coordinate, If we process events, for every start event we get the maximum height
+ * including this event, otherwise we get the maximum height excluding this event.
+ */
 public class UVA_105_TheSkylineProblem {
 
     private static final int START = 1;

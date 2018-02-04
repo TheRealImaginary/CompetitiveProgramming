@@ -77,7 +77,7 @@ public class UVA_10263_Railway {
 
     public static void main(String[] args) throws IOException {
         MyScanner sc = new MyScanner(System.in);
-        // ZOJ.MyScanner sc = new ZOJ.MyScanner("in.txt");
+        // Utils.MyScanner sc = new Utils.MyScanner("in.txt");
         PrintWriter out = new PrintWriter(System.out);
         while (sc.ready()) {
             Point p = new Point(sc.nextDouble(), sc.nextDouble());

@@ -1,4 +1,4 @@
-package timus;
+package Timus;
 
 import java.io.*;
 import java.util.ArrayList;
